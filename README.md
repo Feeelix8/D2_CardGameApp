@@ -157,3 +157,22 @@ Use [Maven Styled Structure](https://maven.apache.org/guides/introduction/introd
 
 ## Storage (optional)
 - Hibernate (ORM)
+
+
+## BlackJack game process:
+
+1.	The game starts with a card deck containing 312 (6*52) cards
+
+2.	Player and dealer start with two random cards
+
+3.	The player has the option to pick another card (hit) or to end their round (stand)
+
+4.	Card values are counted with the number cards having their number value und the face cards are counted as 10. Aces are counted either as 11 or, if their addition would lead to a value exceeding 21 then an Ace is counted as 1
+
+5.	If a player (or the dealer) has 21 right at the start with their first cards they win (BlackJack!). If both the player and the dealer have 21 the game ends with a draw
+
+6.	Once the player chooses to stand, the dealer draws his cards until he reaches a combined value of 17 or higher
+
+7.	If neither the player nor the dealer reaches BlackJack or exceeds 21 (fails) then the highest score wins
+
+8.	If all cards are played, the deck is reshuffled
