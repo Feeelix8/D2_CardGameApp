@@ -1,4 +1,4 @@
-package ddb.international;
+package msc.ddb.international;
 
 import static org.junit.Assert.assertTrue;
 
